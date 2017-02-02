@@ -2,8 +2,8 @@ function Creature(world, x, y)
 {
 	this.network = new Architect.Perceptron(40, 25, 3);
 	this.world = world;
-	this.mass = .3;
-	this.maxspeed = 2;
+	this.mass = .1;
+	this.maxspeed = 20;
 	this.maxforce = .2;
 	this.lookRange = this.mass * 200;
 	this.length = this.mass * 10;

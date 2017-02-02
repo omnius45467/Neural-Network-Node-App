@@ -3,7 +3,7 @@ function blastoff()
 	var canvas = $("#canvas")[0];
 	var ctx = canvas.getContext('2d');
 
-	var num = 10;
+	var num = 30;
 	var fps = 100;
 
 	canvas.width = $('#canvas-container').width();
